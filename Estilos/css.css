@@ -1,0 +1,220 @@
+body{
+	background: #605D5A;
+	font-family: 'Georgia';
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	
+}
+
+nav{
+	background: red;
+	width: 70%;
+	position: relative;
+	top: 40px;
+	left: 10px;
+	text-align: center;
+	display: inline-block;
+	height: 40px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	}
+
+.navlink{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	padding: 5px 10px;
+	font-size: 1em;
+}
+
+li{
+	position: relative;
+	display: inline;
+	}
+
+li a:hover{
+	border-bottom: 3px solid black; 
+}
+
+.nav:nth-of-type(1){
+
+	top: 15px;
+	left: -10px;
+}
+
+.nav:nth-of-type(2){
+	top: 15px;
+	left: -15px;
+}
+
+.nav:nth-of-type(3){
+	top: 15px;
+	left: -5px;
+}
+
+.logo{
+	background-image: url("../Imagenes/Logo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 30%;
+	height: 70px;
+	position: relative;
+	top: -30px;
+	left: 70%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 77px;
+	background: black;
+	border-top: 7px solid red;
+}
+
+.redes{
+	width: 30%;
+	height: auto;
+	position: relative;
+	top: -12px;
+	left: 3%;
+	display: inline-block;
+}
+
+.redes img{
+	width:  25px;
+	height: 25px;
+	display: inline-block;
+	border-radius: 5px; 
+}
+
+.redlink{
+	width: 35px;
+	height: 35px;
+}
+
+.encuesta{
+	width: 30%;
+	height: 40px;
+	position: relative;
+	top: -15px;
+	left: 2%;
+	display: inline-block;
+	background: red;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.encuesta a{
+ 	
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	font-size: 1em;
+}
+
+.encuesta a p{
+ 	text-align: center;
+ 	margin: 0px;
+}
+
+.cupones{
+	display: none;
+}
+
+.copy{
+	width: 30%;
+	height: 40px;
+	position: relative;
+	top: -5px;
+	left: 5%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+.carrucel{
+	width: 90%;
+	height: 200px;
+	overflow: hidden;
+	margin: 0px;
+	border: 1px solid black;
+	position: relative;
+	top: -10px;
+	left: 5%;
+	border-radius: 10px;
+}
+
+.carrucel ul{
+	position: absolute;
+	display: flex;
+    padding: 0px; 
+    margin: 0px;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.carrucel li{
+	position: relative;
+	width: 100%;
+    list-style: none;
+}
+
+.carrucel img{
+	width: 100%;
+}
+
+@keyframes cambio {
+    0%, 20% {
+    	margin-left: 0;
+    }
+    25%, 45% {
+    	margin-left: -100%;
+    }   
+    50%, 70% {
+    	margin-left: -200%;
+    }
+    75%, 100% {
+    	margin-left: -300%;
+    }
+}
+
+.botones{
+	width: auto;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	left: 10%;
+}
+
+#ordena {
+	top: 5px;
+}
+
+#promos {
+	top: 10px;
+}
+
+.plantilla{
+	width: 90%;
+	height: 300px;
+	border: 3px solid white;
+	margin: auto;
+}
+
+.plantilla p{
+	font-size: 2em;
+	text-align: center;
+}
